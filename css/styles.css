@@ -1,0 +1,57 @@
+.header{
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: cyan;
+  }
+  #home{
+    margin: 0px;
+    /* background-image: url('/images/image1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size:cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color:black;
+    background-color:blue;
+    padding-top: 0px;
+  }
+  #about{
+    background-color:blue;
+  }
+  #projects{
+    background-color:cyan;
+  }
+  #contact{
+    background-color:cyan;
+    margin: 2px;
+  }
+  /* img{
+    float: initial;
+    width: 600px;
+    height: 500px;
+    border-radius: 40px;
+  } */
+  h5{
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  background-color:cyan;
+}
+h2{
+  text-align: center;
+}
+img{
+  width: 650px;
+  height: 500px;
+  justify-content: space-around;
+  padding: 2px;
+}
+h7{
+  font-weight: bold;
+}
