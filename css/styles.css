@@ -26,14 +26,7 @@
     background-color:cyan;
   }
   #contact{
-    background-image: url(/images/img5.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    margin: 2px;
-    height: 100vh;
-    font-size: 20px;
-    font-weight: bold;
+    background-color: cyan;
   }
   /* img{
     float: initial;
@@ -49,9 +42,6 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 15px;
   background-color:cyan;
-}
-h2{
-  text-align: center;
 }
 img{
   width: 650px;
