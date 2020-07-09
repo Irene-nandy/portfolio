@@ -20,13 +20,20 @@
   }
   #about{
     background-color:blue;
+
   }
   #projects{
     background-color:cyan;
   }
   #contact{
-    background-color:cyan;
+    background-image: url(/images/img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
     margin: 2px;
+    height: 100vh;
+    font-size: 20px;
+    font-weight: bold;
   }
   /* img{
     float: initial;
@@ -48,9 +55,9 @@ h2{
 }
 img{
   width: 650px;
-  height: 500px;
+  height: 450px;
   justify-content: space-around;
-  padding: 2px;
+  padding: 0px;
 }
 h7{
   font-weight: bold;
