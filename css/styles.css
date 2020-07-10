@@ -17,16 +17,20 @@
     background-color:blue;
     padding-top: 0px;
   }
-  #about{
+  /* #about{
     background-color:blue;
 
-  }
+  } */
   #projects{
-    background-color:cyan;
+    background-color:blue;
+    
   }
   #contact{
     background-color: cyan;
     text-align: center;
+    background-image: url('../images/contactme.png');
+    background-size: 32%;
+    background-repeat: no-repeat;
   }
   h5{
     font-size: 20px;
@@ -38,8 +42,8 @@ body{
   background-color:cyan;
 }
 img{
-  width: 650px;
-  height: 490px;
+  width: 630px;
+  height: 480px;
   justify-content: space-around;
   padding: 0px;
 }
@@ -49,9 +53,109 @@ h7{
 #navbar{
   text-align: center;
 }
-.card{
-  text-align: center;
+
+
+.all {
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  float: inline-start;
+  height: 500px;
 }
-.list {
+h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: large;
   text-align: center;
+  color: #5BC0DE;
 }
+/* p {
+  font-size: medium;
+  float: none;
+} */
+#background {
+  box-shadow: 3px 3px black;
+  box-sizing: border-box;
+  color: 51, 51, 51;
+  display: block;
+  font-size: 16px;
+  font-stretch: 90%;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: center;
+  width: 23%;
+  background-image: url('..//images/job.jpg');
+  background-size: cover;
+}
+#education {
+  box-shadow: 3px 3px black;
+  box-sizing: border-box;
+  color: 51, 51, 51;
+  display: block;
+  font-size: 16px;
+  font-stretch: 100%;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: center;
+  width: 23%;
+  overflow: hidden;
+  background-image: url(../images/job.jpg);
+  background-size: cover;
+}
+#job {
+  box-shadow: 3px 3px black;
+  box-sizing: border-box;
+  color: 51, 51, 51;
+  display: block;
+  font-size: 16px;
+  font-stretch: 100;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: center;
+  width: 23%;
+  background-image: url('../images/job.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hobbies {
+  box-shadow: 3px 3p black;
+  box-sizing: border-box;
+  color: 51, 51, 51;
+  display: block;
+  font-size: 16px;
+  font-stretch: 100%;
+  margin-block-start: 16px;
+  margin-block-end: 16px;
+  margin-inline-end: 0px;
+  margin-inline-start: 0px;
+  text-align: center;
+  width: 23%;
+  background-image: url('../images/job.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.all > div > img {
+   width: 100%;
+  
+}
+#main > h1 {
+  position: relative;
+  top: 80%;
+  color: #5BC0DE;
+  font-weight: 800;
+}
+#about {
+  text-align: center;
+  color: black;
+  background-image: url("/images/ABOUT.jpg");
+  font-family: 'Merriweather', serif;
+  font-size: xx-large;
+  font-weight: bolder;
+  background-size: cover;
+  height: 500px;
+} 
