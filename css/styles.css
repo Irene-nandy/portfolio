@@ -152,7 +152,7 @@ h2 {
 #about {
   text-align: center;
   color: black;
-  background-image: url("/images/ABOUT.jpg");
+  background-image: url('../images/ABOUT.jpg');
   font-family: 'Merriweather', serif;
   font-size: xx-large;
   font-weight: bolder;
