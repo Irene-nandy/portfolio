@@ -7,20 +7,17 @@
   }
   #home{
     margin: 0px;
+    background-image: url('../images/image9.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size:cover;
     width: 100%;
-    height: 100vh;
+    height: 150vh;
     position: relative;
-    color:black;
+    color:white;
     background-color:  #5bc0de;
     padding-top: 0px;
   }
-  /* #about{
-    background-color:blue;
-
-  } */
   #projects{
     background-color:  #5bc0de;
     
@@ -41,20 +38,19 @@ body{
   font-size: 15px;
   background-color:  #5bc0de;
 }
-img{
-  width: 630px;
-  height: 480px;
-  justify-content: space-around;
-  padding: 0px;
-}
 h7{
   font-weight: bold;
 }
-#navbar{
-  text-align: center;
+
+.navbar {
+  margin: 0px auto;
+  padding: 10px 0;
+  margin-right: 0%;
+  background-color: #5bc0de;
 }
-
-
+.nav > ul {
+  text-align: right;
+}
 .all {
   justify-content: space-around;
   display: flex;
@@ -159,3 +155,6 @@ h2 {
   background-size: cover;
   height: 500px;
 } 
+*{
+  text-indent: 2%;
+}
