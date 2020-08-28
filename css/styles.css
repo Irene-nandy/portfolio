@@ -7,14 +7,14 @@
   }
   #home{
     margin: 0px;
-    background-image: url('../images/image1.jpg');
+    background-image: url('https://cdn.mos.cms.futurecdn.net/6t8Zh249QiFmVnkQdCCtHK.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-background-size:cover;
     width: 100%;
     height: 150vh;
     position: relative;
-    color:white;
+    color: black;
     background-color:  #5bc0de;
     padding-top: 0px;
   }
